@@ -11,7 +11,7 @@ const session = require('express-session');
 
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
-const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/DomoMaker';
+const dbURL = process.env.MONGODB_URI || 'mongodb://heroku_xp2nwtjr:jerujm5ocgk9kpbqfrq5cd4p5k@ds227664.mlab.com:27664/heroku_xp2nwtjr';
 
 mongoose.connect(dbURL, (err) => {
   if (err) {
